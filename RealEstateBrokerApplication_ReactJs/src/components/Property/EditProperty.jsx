@@ -76,7 +76,7 @@ const EditProperty = () => {
             </div>
 
             <div className="row">
-              <div className="col-md-6">ID</div>
+              <div className="col-md-6">ID*</div>
               <div className="col-md-6">
                 <input
                   style={{ width: "200px" }}
