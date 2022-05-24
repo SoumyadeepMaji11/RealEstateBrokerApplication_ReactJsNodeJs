@@ -1,0 +1,74 @@
+.brpop{
+    position: absolute;
+    top:0%;
+    left:0%;
+    height:100%;
+    width:100%;
+    /* background:#ddd; */
+    /* background : rgb(2,0,36);
+    background: radial-gradient(circle, rgba(9,72,121,1) 4%, rgba(87,6,128,0.7357494022999824) 45%, rgba(0,243,255,0.6937325955772935) 92%); */
+    /* background: rgb(127, 132, 133);
+background: radial-gradient(circle, rgb(188, 190, 192) 0%,rgba(231, 233, 234, 0.736) 45%, rgb(230, 230, 227) 100%); */
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.popup {
+    width:390px;
+    height: 300px;
+    padding: 30px 20px;
+    background:#f5f5f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index:2;
+    text-align:center;
+}
+
+.popup .icon{
+    margin:5px 1px;
+    width:60px;
+    height:60px;
+    border:2px solid #34f234;
+    text-align :center;
+    display:inline-block;
+    border-radius:50%;
+    line-height:20px;
+    
+}
+
+.popup .title{
+    margin:5px 0px;
+    font-size:30px;
+    font-Weight:600;
+}
+
+.popup .description{
+    color:#222;
+    font-size:20px;
+}
+
+.popup .dismiss-btn{
+    margin-top:15px;
+}
+
+.popup .dismiss-btn button{
+    padding:10px 20px;
+    background:#111;
+    color:#f5f5f5;
+    border:2px solid #111;
+    font-size:16px;
+    font-weight:600;
+    outline:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.popup .dismiss-btn button:hover{
+    color:#111;
+    background:red;
+}
