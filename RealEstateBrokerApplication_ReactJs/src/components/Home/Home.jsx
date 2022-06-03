@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './Header'; 
+import img from './home.png';
 
 const Home = () => {
 
@@ -28,7 +29,7 @@ const Home = () => {
     <Header/>
     <div class="container">
     {/*  eslint-disable-next-line  */}
-      <img style={styles.img} src="https://jsmsikkim.com/images/11.png" />
+      <img style={styles.img} src={img} />
       <h1  style={styles.h1} className="center" >Welcome to Real Estate Broker Application</h1>
     </div>
     </>
