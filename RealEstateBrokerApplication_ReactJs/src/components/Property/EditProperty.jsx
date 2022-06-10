@@ -6,9 +6,13 @@ import BrokerHeader from "../Broker/BrokerHeader";
 import {useParams} from "react-router-dom";
 
 const EditProperty = () => {
+
+  let {id} = useParams();
+  console.log(id);
+
   let nav = useNavigate();
   const [data, setData] = useState({
-    id: "",
+    id: id,
     prop_id: "",
     prop_type: "",
     offer_type: "",
@@ -47,8 +51,7 @@ const EditProperty = () => {
       });
   };
 
-  let {id} = useParams();
-  console.log(id);
+ 
 
   return (
     <>
@@ -76,7 +79,7 @@ const EditProperty = () => {
             </div>
 
             <div className="row">
-              <div className="col-md-6">ID*</div>
+              <div className="col-md-6">ID**</div>
               <div className="col-md-6">
                 <input
                   style={{ width: "200px" }}
