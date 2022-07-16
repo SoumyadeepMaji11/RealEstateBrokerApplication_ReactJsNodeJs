@@ -1,1 +1,3 @@
-# RealEstateBrokerApplication_ReactJs : Work in progress
+# RealEstateBrokerApplication_ReactJs
+
+Terminal --> npm install --> npm start
